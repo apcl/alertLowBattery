@@ -7,6 +7,7 @@ import sl4a
 
 droid = sl4a.Android()
 time.sleep(1)
+#setea el nivel de batería en que se alertará
 alerta = 20
 while True:
       droid.batteryStartMonitoring()
